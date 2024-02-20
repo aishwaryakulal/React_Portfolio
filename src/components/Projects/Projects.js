@@ -8,7 +8,8 @@ import editor from "../../Assets/Projects/travel.jpg";
 import chatify from "../../Assets/Projects/pro-1.jpg";
 import suicide from "../../Assets/Projects/shopper.jpg";
 import bitsOfCode from "../../Assets/Projects/pro-2.png";
-
+import realestate from "../../Assets/Projects/realestate.jpg"
+import snapgram from "../../Assets/Projects/snapgram.jpg"
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -21,6 +22,28 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={realestate}
+              isBlog={false}
+              title="Real-Estate"
+              description="Absolutely! 🏡 Welcome to our state-of-the-art real estate website built with React! Explore the 🌟latest property listings, discover success stories from 🎉recently satisfied customers, and find your dream home. 🏠"
+              ghLink="https://github.com/aishwaryakulal/Real_Estate"
+             demoLink="https://real-estate-one-sand.vercel.app/"
+            />
+          </Col>
+
+          
+
+
+
+
+
+
+
+
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}
@@ -84,11 +107,28 @@ function Projects() {
               imgPath={emotion}
               isBlog={false}
               title="TMDB MOVIE APP"
-              description="🎬 TimeFlicks: Your TMDB Movie Experience 🕰️ Explore the world of cinema with TimeFlicks, a cutting-edge TMDB movie app crafted in React.js! 🚀 Features: 🌟 Discover a curated list of Popular, Upcoming, and Trending movies at your fingertips. "
-              ghLink="https://github.com/aishwaryakulal/TMDB-Movie-App"
+              description="🎬 TimeFlicks: Your TMDB Movie Experience 🕰️ Explore the world of cinema with TimeFlicks, a cutting-edge TMDB movie app crafted in React.js! 🚀 Features: 🌟 Discover a curated list of Popular, Upcoming, and Trending movies at your fingertips. Navigate through the app seamlessly with an intuitive and user-friendly interface.,"              ghLink="https://github.com/aishwaryakulal/TMDB-Movie-App"
               demoLink="https://tmdb-movie-app-n9lt.vercel.app/"     
             />
           </Col>
+
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={snapgram}
+              isBlog={false}
+              title="SNAPgram📸"
+              description="🌈 Welcome to Snapgram  🚀📸Expressive Posts: Users can create expressive and visually appealing posts, showcasing moments from their lives through images or other multimedia content. The intuitive interface allows for easy uploading and sharing of content"
+              ghLink="https://github.com/aishwaryakulal/Snapgram"
+             demoLink="https://snapgram-self.vercel.app/"
+            />
+          </Col>
+
+
+
+
+
+
         </Row>
       </Container>
     </Container>

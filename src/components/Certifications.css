@@ -1,0 +1,73 @@
+/* Certifications.css */
+
+.certifications-section {
+    padding: 50px 0; /* Adjust the padding as needed */
+    background-color: #11131a; /* Set the background color */
+  }
+  
+  .certifications-heading {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 30px;
+    
+    color: #f1eeee; /* Set the heading color */
+  }
+  .certifications-heading h3{
+    color: #f9f0f0;
+  }
+  .certification-card {
+    background-color: #181b2a; /* Set the card background color */
+    border: 1px solid #f6eaea; /* Set the border color */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px; /* Set border-radius for rounded corners */
+  }
+  
+  .certification-card h3 {
+    font-size: 24px;
+    color: #e9dede; /* Set the heading color */
+    margin-bottom: 15px;
+  }
+  
+  .certification-card p {
+    font-size: 16px;
+    color: #f5eded; /* Set the text color */
+  }
+  
+  /* Add more styles as needed */
+  /* Certifications.css */
+
+.certifications-section {
+    padding: 50px 0; /* Adjust the padding as needed */
+    background-color: #1a1f2d; /* Set the background color */
+  }
+  
+  .certifications-heading {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #f0e5e5; /* Set the heading color */
+    margin-top: 70px; /* Adjust the top margin to create space */
+  }
+  
+  .certification-card {
+    background-color: #2d2929; /* Set the card background color */
+    border: 1px solid #ddd; /* Set the border color */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px; /* Set border-radius for rounded corners */
+  }
+  
+  .certification-card h3 {
+    font-size: 24px;
+    color: #e2cccc; /* Set the heading color */
+    margin-bottom: 15px;
+  }
+  
+  .certification-card p {
+    font-size: 16px;
+    color: #e3d5d5; /* Set the text color */
+  }
+  
+  /* Add more styles as needed */
+  

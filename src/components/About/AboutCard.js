@@ -13,21 +13,27 @@ function AboutCard() {
             <br />
             I am currently employed as a software developer at Aroha Group.
             <br />
-            I have completed Master of Computer Application at Manipal Institute of Techmology, Manipal.
+            I have completed Master of Computer Application at Manipal Institute of Technology, Manipal.
+            
             <br />
+            <br/>
+            <p style={{ color: "orange" }}>Email: aishwaryakulal8@gmail.com</p>
+
             <br />
-            Apart from coding, some other activities that I love to do!
+            
+          <i>WORK EXPIRENCE</i> 
+
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> SOFTWARE DEVELOPER Intern at Aroha Group Manipal. -(Jan-Apr)2024
             </li>
             <li className="about-activity">
-              <ImPointRight /> Dance
+              <ImPointRight /> MathWork Virtual Internship with Artifical Inteligence -(Jun-Sep)2023
             </li>
-            <li className="about-activity">
+            {/* <li className="about-activity">
               <ImPointRight /> Travelling
-            </li>
+            </li> */}
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>

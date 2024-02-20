@@ -4,6 +4,7 @@ import {
   AiFillGithub,
   AiOutlineTwitter,
   AiFillInstagram,
+  MdEmail,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
